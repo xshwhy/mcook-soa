@@ -1,6 +1,8 @@
 package com.iotmars.observer;
 
 /**
+ * 观察者模式
+ *
  * @author: xsh
  * @date: 2020/12/25 10:17
  */

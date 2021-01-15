@@ -1,5 +1,7 @@
 server:
   port: 10002
+  tomcat:
+    max-threads: 1
 
 spring:
   application:
@@ -37,3 +39,8 @@ mybatis-plus:
   type-aliases-package: com.iotmars.po
   # MyBatis Mapper 所对应的 XML 文件位置，如果您在 Mapper 中有自定义方法
   mapper-locations: classpath:/mapper/*Mapper.xml
+
+
+logging:
+  level:
+    com.iotmars: debug
