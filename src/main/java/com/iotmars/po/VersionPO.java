@@ -7,6 +7,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 
 import java.io.Serializable;
 
@@ -15,6 +16,7 @@ import java.io.Serializable;
  * @date: 2021/1/8 11:16
  */
 @Data
+@Accessors(chain = true)
 @TableName(value = "version")
 @AllArgsConstructor
 @NoArgsConstructor

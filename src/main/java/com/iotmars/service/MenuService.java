@@ -66,7 +66,7 @@ public class MenuService {
      * 搜索es
      * @return
      */
-    public Result searchMenu(String keyWord,Integer page,Integer pageSize) {
+    public Result searchMenu(String keyWord,Integer page,Integer pageSize)  {
         // 构造查询条件
 
         // 添加基本的分词查询
