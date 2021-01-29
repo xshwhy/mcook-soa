@@ -44,3 +44,14 @@ mybatis-plus:
 logging:
   level:
     com.iotmars: debug
+
+
+user:
+  name: "123"
+
+management:
+  endpoints:
+    enabled-by-default: true  # 暴露所有端点
+    web:
+      exposure:
+        include: '*'  # 以web方式暴露

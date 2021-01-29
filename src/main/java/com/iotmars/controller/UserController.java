@@ -22,5 +22,11 @@ public class UserController {
         return "hello world";
     }
 
+    @ApiOperation(value = "参数校验", notes = "自定义")
+    @PostMapping(value = "/user22")
+    public Object test1() {
+        return "hello world";
+    }
+
 
 }
